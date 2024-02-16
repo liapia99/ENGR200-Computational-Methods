@@ -31,3 +31,9 @@ void binary(){
     }
 
 }
+int main(){
+    printf("Solutions to Part 1 of Lab 2 are: ");
+    printf("\n");
+    binary();
+    printf("\n");
+}
