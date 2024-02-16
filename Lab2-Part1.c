@@ -30,7 +30,7 @@ void binary(){
         printf("Entered number is out of range.");
     }
 
-}
+};
 int main(){
     printf("Solutions to Part 1 of Lab 2 are: ");
     printf("\n");
