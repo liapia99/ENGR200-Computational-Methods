@@ -1,8 +1,8 @@
-// This program is designed to compute the binary number of any decimal from 0-32 
+// This program is designed to compute the roots of ax^2 + bx + c = 0 and print the solution with three decimals places.
 // The following code is written and compiled with CLion
 //
 // Program: Lab2-Part2.c
-// Purpose: To compute the binary number of any decimal from 0-32 
+// Purpose: To compute the roots of ax^2 + bx + c = 0 and print the solution with three decimals places.
 
 // Author: Julia Piascik
 // Course ENGR200 Computational Method in Engineering
