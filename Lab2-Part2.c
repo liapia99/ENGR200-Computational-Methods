@@ -51,3 +51,9 @@ void quadratic(){
 
         }
     };
+int main(){
+    printf("Solutions to Part 2 of Lab 2 are: ");
+    printf("\n");
+    quadratic();
+    printf("\n");
+}
