@@ -10,8 +10,6 @@
 // Date: 2/22/2024
 
 
-#include <stdio.h>
-
 
 #include <stdio.h>
 int prime(int num){
