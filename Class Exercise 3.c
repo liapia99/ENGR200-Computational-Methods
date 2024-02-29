@@ -1,8 +1,8 @@
-// This program is designed to print all student records including the name, ID and grade. 
+// This program is designed to print all student records, including the name, ID, and grade, using an array. 
 // The following code is written and compiled with CLion
 //
 // Program: Class Exercise 3.c
-// Purpose: To compute the student records. 
+// Purpose: To compute the student records in an array. 
 //
 // Author: Julia Piascik
 // Course ENGR200 Computational Method in Engineering
