@@ -20,7 +20,7 @@ int main() {
     p = 2 * x + 2 * y; 
     printf("Perimeter of the rectangle = %d inches", p);
     printf("\n");
-    printf("Area of the rectangle = %d inches", a);
+    printf("Area of the rectangle = %d square inches", a);
 
     return 0;
 }
