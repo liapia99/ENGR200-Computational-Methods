@@ -1,0 +1,39 @@
+// This program is designed to accept two item's weight and number of purchases and calculate their average value. 
+// The following code is written and compiled with CLion
+//
+// Program: problem7.c
+// Purpose: To accept two item's weight and number of purchases and calculate their average value. 
+
+// Author: Julia Piascik
+// Course ENGR200 Computational Method in Engineering
+// Term Spring 2024
+// Date: 3/11/2024
+
+#include <stdio.h>
+
+int item, item2, weight, weight2, calc1, calc2;
+float avg;
+
+int main() {
+
+  printf("Input the weight for the first item: ");
+  scanf("%d", &weight);
+  
+  printf("Input the number of item 1: ");
+  scanf("%d", &item);
+  
+  printf("Input the weight for the second item: ");
+  scanf("%d", &weight2);
+  
+  printf("Input the number of item 2: ");
+  scanf("%d", &item2);
+  
+  calc1 = weight * item;
+  calc2 = weight2 * item2; 
+  
+  avg = (calc1 + calc2) / 2; 
+
+  printf("Average Value =  %f", avg);
+  
+  return 0;
+}
