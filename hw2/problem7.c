@@ -11,27 +11,27 @@
 
 #include <stdio.h>
 
-int item, item2, weight, weight2, calc1, calc2;
-float avg;
+float item, item2, weight, weight2, calc1, calc2, calc3, avg;
 
 int main() {
 
   printf("Input the weight for the first item: ");
-  scanf("%d", &weight);
+  scanf("%f", &weight);
   
   printf("Input the number of item 1: ");
-  scanf("%d", &item);
+  scanf("%f", &item);
   
   printf("Input the weight for the second item: ");
-  scanf("%d", &weight2);
+  scanf("%f", &weight2);
   
   printf("Input the number of item 2: ");
-  scanf("%d", &item2);
+  scanf("%f", &item2);
   
   calc1 = weight * item;
   calc2 = weight2 * item2; 
+  calc3 = item + item2;
   
-  avg = (calc1 + calc2) / 2; 
+  avg = (calc1 + calc2) / calc3; 
 
   printf("Average Value =  %f", avg);
   
