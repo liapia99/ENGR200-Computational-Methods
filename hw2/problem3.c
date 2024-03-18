@@ -22,13 +22,13 @@ int main() {
     int c = 100;
     unsigned long ux = 2541567890;
 
-    printf("%d\n", a+b);     //printing multiple functions utilizing the declared variables
-    printf("%d\n", ((int)dx) + ax);
-    printf("%d\n", a + x);
+    printf("%d\n", a+b);     
+    printf("%f\n", (dx) + (double)ax);
+    printf("%f\n", a + x);
     printf("%d\n", s + b);
     printf("%d\n", ax + b);
     printf("%d\n", ax + ux);
-    printf("%d\n", x + c);
+    printf("%f\n", x + c);
     printf("%d\n", s + c);
     printf("%d\n", ax + c);
     printf("%d\n", a + c);
