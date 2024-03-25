@@ -1,0 +1,12 @@
+start = 1;
+step = 0.01;
+end_value = 2;
+x = start:step:end_value;
+
+y = x.^2 / (x.^3 + 1)
+
+question4
+
+y =
+
+     4.811299621334887e-01
