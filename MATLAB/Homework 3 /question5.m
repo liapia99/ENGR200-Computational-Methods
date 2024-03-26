@@ -3,4 +3,13 @@ step = 0.02;
 end_value = 3;
 x = start:step:end_value;
 
-y = sin((x.*cos(x))./(x.^2 + 3*x + 1))
+a = x.^2 + 3 * x + 1; 
+b = x.* cos(x);
+
+y = sin(b/a)
+
+>> question5
+
+y =
+
+   -0.1079
