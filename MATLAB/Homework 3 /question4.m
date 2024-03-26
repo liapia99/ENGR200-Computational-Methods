@@ -5,8 +5,9 @@ x = start:step:end_value;
 
 y = x.^2 / (x.^3 + 1)
 
-question4
+ 
+>> question4
 
 y =
 
-     4.811299621334887e-01
+    0.4811
