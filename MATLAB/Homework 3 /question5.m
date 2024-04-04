@@ -1,3 +1,5 @@
+% Question 5
+
 start = 1;
 step = 0.02;
 end_value = 3;
@@ -8,8 +10,3 @@ b = x.* cos(x);
 
 y = sin(b/a)
 
->> question5
-
-y =
-
-   -0.1079
