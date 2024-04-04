@@ -1,3 +1,5 @@
+% Question 6
+
 x = -2:0.2:2;
 
 a = x.^4;
@@ -11,13 +13,3 @@ roots
 
 plot(x,y)
 
->> question6
-
-p =
-
-    19     1    -1     1    19
-
-
-roots =
-
-     1     0     1     0    -1
